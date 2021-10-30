@@ -1,0 +1,503 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+p{
+    display: inline;
+}
+*/
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #7743c9;
+    --bs-purple: #b57ade;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+header .bg{
+ background-color: var(--bs-indigo);
+}
+nav li a{
+    color: var(--bs-gray);
+}
+nav img{
+    height: 40px;
+} 
+.material-icons{
+    color: rgb(204, 203, 203);
+    font-size: 25px;
+}
+nav ul li.nav-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+nav ul li a:hover{
+    color: var(--bs-white);
+}
+.jumbotron {
+   background-color: var(--bs-purple);
+   height: 240px;
+} 
+
+.jumbotron h1 , .jumbotron p{
+    color: var(--bs-white);
+    position: relative;
+    left: 30%;
+    top:25%
+}
+.jumbotron img{
+     position: relative;
+     left: 45%;
+     top: 20%;
+}
+.jumbotron button{
+    position: relative;
+    top: 50%;
+    left: 30%;
+    width: 180px;
+}
+.card-body .rounded-pill, .fixbadge{
+    margin-left: 5px;
+}
+.card{
+    border: none;
+}
+.task2{
+    padding: 25px;
+  /*  background-color: red; */
+    position: relative;
+
+}
+.h3-card-1{
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.h3-card-3{
+    margin-left: 20%;
+}
+.card3 .card-text{
+    margin-right: 15%;
+}
+.card3 img{
+    height: 179px;
+}
+
+.card2 .h3{
+    margin-left: 40%;
+}
+.task3 {
+  /*  background-color: blue; */
+    position: relative;
+    top: 15px;
+    padding: 0 15px;
+}
+.task3 .text p{
+    background-color: var(--bs-yellow);
+    width: 50%;
+    position: relative;
+    left: 15%;
+    height: 45px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--bs-white);
+    padding-left: 15px;
+    padding-top: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+.task3 .pagination{
+    position: relative;
+    left: 18%;
+    top: 8%;
+    padding: 0 2px;
+    margin: 0 10px;
+}
+.task3 .form-check{
+    position: relative;
+    left: 25px;
+}
+.task3 .form-control{
+    width: 30%;
+    display: inline;
+    position: relative;
+    left: 53%;
+    bottom: 55%;
+    margin: 0 15px;
+
+}
+.task3 .fix-control-time{
+    position: relative;
+    bottom: 250%;
+    
+}
+.input .text-input{
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+.control-btn{
+    position: relative;
+    left: 27%;
+    bottom: 80px;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    padding: 15px 0;
+    top: 20%;
+    background-color: rgb(180, 155, 229);
+}
+.icons img{
+    position: relative;
+    top: 150%;
+}
+footer h5{
+    font-weight: 700;
+    margin-left: 30px;
+}
+footer ul li{
+    list-style: none;
+    font-weight: 600;
+}
+footer ul li a{
+    text-decoration: none;
+}
+
+footer .list-control{
+    position: relative;
+    bottom: 25px;
+}
+
+.copyright p{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* fix */
+
+.card1-sm{
+    visibility: hidden;
+}
+
+/* Media Queries */
+ 
+@media (min-width:) { 
+    body{
+        background-color: blue;
+    }
+    
+.jumbotron {
+    background-color: var(--bs-purple);
+    height: 240px;
+ } 
+ 
+ .jumbotron h1 , .jumbotron p{
+     color: var(--bs-white);
+     position: relative;
+     left: 30%;
+     top:25%
+ }
+ .jumbotron img{
+      position: relative;
+      left: 45%;
+      top: 20%;
+ }
+ .jumbotron button{
+     position: relative;
+     top: 50%;
+     left: 30%;
+     width: 180px;
+ }
+ .card-body .rounded-pill, .fixbadge{
+     margin-left: 5px;
+ }
+ .card{
+     border: none;
+ }
+ .task2{
+     padding: 25px;
+   /*  background-color: red; */
+     position: relative;
+ 
+ }
+ .h3-card-1{
+     margin-left: 20%;
+     margin-top: -20%;
+ }
+ .h3-card-3{
+     margin-left: 20%;
+ }
+ .card3 .card-text{
+     margin-right: 15%;
+ }
+ .card3 img{
+     height: 179px;
+ }
+ 
+ .card2 .h3{
+     margin-left: 40%;
+ }
+ .task3 {
+   /*  background-color: blue; */
+     position: relative;
+     top: 15px;
+     padding: 0 15px;
+ }
+ .task3 .text p{
+     background-color: var(--bs-yellow);
+     width: 50%;
+     position: relative;
+     left: 15%;
+     height: 45px;
+     margin-left: 30px;
+     font-weight: 400;
+     font-size: 20px;
+     color: var(--bs-white);
+     padding-left: 15px;
+     padding-top: 8px;
+     font-family: 'Poppins', sans-serif;
+ }
+ .task3 .pagination{
+     position: relative;
+     left: 18%;
+     top: 8%;
+     padding: 0 2px;
+     margin: 0 10px;
+ }
+ .task3 .form-check{
+     position: relative;
+     left: 25px;
+ }
+ .task3 .form-control{
+     width: 30%;
+     display: inline;
+     position: relative;
+     left: 53%;
+     bottom: 55%;
+     margin: 0 15px;
+ 
+ }
+ .task3 .fix-control-time{
+     position: relative;
+     bottom: 250%;
+     
+ }
+ .input .text-input{
+     display: inline;
+     position: relative;
+     left: 40%;
+ }
+ .control-btn{
+     position: relative;
+     left: 27%;
+     bottom: 80px;
+ }
+ 
+ /* footer */
+ 
+ footer{
+     position: relative;
+     padding: 15px 0;
+     top: 20%;
+     background-color: rgb(180, 155, 229);
+ }
+ .icons img{
+     position: relative;
+     top: 150%;
+ }
+ footer h5{
+     font-weight: 700;
+     margin-left: 30px;
+ }
+ footer ul li{
+     list-style: none;
+     font-weight: 600;
+ }
+ footer ul li a{
+     text-decoration: none;
+ }
+ 
+ footer .list-control{
+     position: relative;
+     bottom: 25px;
+ }
+ 
+ .copyright p{
+     text-align: center;
+     font-weight: 600;
+ }
+ }
+
+ @media (min-width: 536.67px) and (max-width: 768px) { 
+     body{
+         background-color: red;
+     }
+   
+.jumbotron {
+    background-color: var(--bs-purple);
+    height: 240px;
+ } 
+ 
+ .jumbotron h1 , .jumbotron p{
+     color: var(--bs-white);
+     position: relative;
+     left: 30%;
+     top:25%
+ }
+ .jumbotron img{
+      position: relative;
+      left: 45%;
+      top: 20%;
+ }
+ .jumbotron button{
+     position: relative;
+     top: 50%;
+     left: 30%;
+     width: 180px;
+ }
+ .card-body .rounded-pill, .fixbadge{
+     margin-left: 5px;
+ }
+ .card{
+     border: none;
+ }
+ .task2{
+     padding: 25px;
+   /*  background-color: red; */
+     position: relative;
+ 
+ }
+ .h3-card-1{
+     margin-left: 20%;
+     margin-top: -20%;
+ }
+ .h3-card-3{
+     margin-left: 20%;
+ }
+ .card3 .card-text{
+     margin-right: 15%;
+ }
+ .card3 img{
+     height: 179px;
+ }
+ 
+ .card2 .h3{
+     margin-left: 40%;
+ }
+ .task3 {
+   /*  background-color: blue; */
+     position: relative;
+     top: 15px;
+     padding: 0 15px;
+ }
+ .task3 .text p{
+     background-color: var(--bs-yellow);
+     width: 50%;
+     position: relative;
+     left: 15%;
+     height: 45px;
+     margin-left: 30px;
+     font-weight: 400;
+     font-size: 20px;
+     color: var(--bs-white);
+     padding-left: 15px;
+     padding-top: 8px;
+     font-family: 'Poppins', sans-serif;
+ }
+ .task3 .pagination{
+     position: relative;
+     left: 18%;
+     top: 8%;
+     padding: 0 2px;
+     margin: 0 10px;
+ }
+ .task3 .form-check{
+     position: relative;
+     left: 25px;
+ }
+ .task3 .form-control{
+     width: 30%;
+     display: inline;
+     position: relative;
+     left: 53%;
+     bottom: 55%;
+     margin: 0 15px;
+ 
+ }
+ .task3 .fix-control-time{
+     position: relative;
+     bottom: 250%;
+     
+ }
+ .input .text-input{
+     display: inline;
+     position: relative;
+     left: 40%;
+ }
+ .control-btn{
+     position: relative;
+     left: 27%;
+     bottom: 80px;
+ }
+ 
+ /* footer */
+ 
+ footer{
+     position: relative;
+     padding: 15px 0;
+     top: 20%;
+     background-color: rgb(180, 155, 229);
+ }
+ .icons img{
+     position: relative;
+     top: 150%;
+ }
+ footer h5{
+     font-weight: 700;
+     margin-left: 30px;
+ }
+ footer ul li{
+     list-style: none;
+     font-weight: 600;
+ }
+ footer ul li a{
+     text-decoration: none;
+ }
+ 
+ footer .list-control{
+     position: relative;
+     bottom: 25px;
+ }
+ 
+ .copyright p{
+     text-align: center;
+     font-weight: 600;
+ }
+}
